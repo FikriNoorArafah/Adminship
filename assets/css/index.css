@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* Header */
+.navbar-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  background: rgb(255, 255, 255, 0);
+}
+
+.site-navbar {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+a.site-logo .grafika {
+  height: 70px;
+  width: 60px;
+  margin: 25px;
+}
+/* Costomize About */
+#index {
+  background: #fff;
+  padding-bottom: 50px;
+}
+
+.index .content {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.index .content h2 {
+  font-weight: medium;
+  font-size: 36px;
+  color: #000;
+  user-select: text;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 60px;
+  text-decoration: none;
+}
+
+.index .image {
+  margin-left: 80px;
+  max-width: 700px;
+  max-height: 580px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.form {
+  width: 400px;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 3px solid #18c68b;
+}
+.form span {
+  text-align: center;
+}
+.iconify {
+  font-size: 40px;
+}
+.form input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 24px;
+  width: 80%;
+  float: right;
+  margin: 0 10px;
+}
+.btn {
+  width: 400px;
+  height: 60px;
+  color: #fff;
+  font-size: 24px;
+  background-color: #6aa8ff;
+  border-radius: 50px;
+  margin-top: 60px;
+}
